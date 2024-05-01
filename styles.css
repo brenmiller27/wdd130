@@ -1,0 +1,41 @@
+h1  {
+    color: blueviolet
+}
+
+main{
+    max-width: 840px;
+}
+
+main image{
+    width: 150px;
+    height: auto;
+}
+body  {
+    color:rgb(160, 60, 145);
+    background-color: black;
+}
+
+p {
+    padding: 0;
+}
+
+aside{
+    width: 20rem;
+    margin: 1rem;
+    border: 1px solid rgba(from 0, 0 ,0 , 0.2) ;
+    padding: 1rem;
+    background-color: #eee;
+    color: #333;
+    text-align: center;
+}
+
+aside image{
+    width: 200px;
+    height: auto;
+}
+footer {
+    color: rgb(117, 87, 47);
+    margin-top: 15px;
+    border-top: 1px solid #000;
+    text-align: center;
+}
