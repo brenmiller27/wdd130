@@ -1,4 +1,4 @@
-h1  {
+h1{
     color: blueviolet
 }
 
@@ -11,18 +11,17 @@ main image{
     height: auto;
 }
 body  {
-    color:rgb(160, 60, 145);
-    background-color: black;
+    color:rgba(160, 60, 145);
 }
 
-p {
+p{
     padding: 0;
 }
 
-aside{
+aside {
     width: 20rem;
     margin: 1rem;
-    border: 1px solid rgba(from 0, 0 ,0 , 0.2) ;
+    border: 1px solid-rgba(from 0, 0 ,0 , 0.2) ;
     padding: 1rem;
     background-color: #eee;
     color: #333;
@@ -34,7 +33,7 @@ aside image{
     height: auto;
 }
 footer {
-    color: rgb(117, 87, 47);
+    color: rgba(117, 87, 47);
     margin-top: 15px;
     border-top: 1px solid #000;
     text-align: center;
