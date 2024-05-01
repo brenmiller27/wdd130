@@ -1,20 +1,26 @@
-main{
-    max-width: 840px;
+.style.css
+
+.main{
+    width: 200px;
+    height: auto;
 }
 
-main image{
+.h1{
+    color: skyblue;
+}
+.main image{
     width: 150px;
     height: auto;
 }
-body  {
+.body  {
     color:rgba(160, 60, 145);
 }
 
-p{
+.p{
     padding: 0;
 }
 
-aside {
+.aside {
     width: 20rem;
     margin: 1rem;
     border: 1px solid-rgba(from 0, 0 ,0 , 0.2) ;
@@ -24,11 +30,11 @@ aside {
     text-align: center;
 }
 
-aside image{
+.aside image{
     width: 200px;
     height: auto;
 }
-footer {
+.footer {
     color: rgba(117, 87, 47);
     margin-top: 15px;
     border-top: 1px solid #000;
