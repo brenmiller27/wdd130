@@ -1,12 +1,14 @@
 
-main{
-    width: 200px;
-    height: auto;
-}
 
 h1{
     color: skyblue;
 }
+
+main{
+    max-width: 840px;
+
+}
+
 main image{
     width: 150px;
     height: auto;
