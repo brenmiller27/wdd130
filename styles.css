@@ -1,4 +1,6 @@
-style.css
+style.css a:link {
+    color: yellowgreen;
+}
 
 a:link{
     color: yellowgreen;
