@@ -7,9 +7,43 @@ body{
 }
 
 :root{
-    --primary-color:var(--primary-color)
-    --secondary-color:var
-    --accent1-color:var(--accent-color)
-    --accent2-color:v
+    color:var(--primary-color)
+    color(a98-rgb red green blue)
+}
 
+
+h1,h2,h3,h4,h5,h6{
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+header{
+    padding: 20px;
+    background-color: var(--accent1-color);
+}
+
+p{
+    padding: 25px;
+}
+
+nav{
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    padding: flex;
+}
+
+nav a{
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited{
+    color: var(--nav-a-link-color);
+}
+
+nav a:hover{
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
 }
