@@ -6,11 +6,12 @@ body{
 
 }
 
-:root{
-    color:var(--primary-color)
-    color(a98-rgb red green blue)
-}
 
+:root {
+    --primary-color:
+    
+
+}
 
 h1,h2,h3,h4,h5,h6{
     font-family: var(--heading-font);
