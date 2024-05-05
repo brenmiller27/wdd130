@@ -1,11 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 body{
-    font-family: var(--paragraph-font);
+    font-family:var(--paragraph-font);
     max-width: 960px;
     padding: 20px;
 
 }
 
+@font-face {
+    font-family: 'inconsolata';
+    font-size: large;
+    src: url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+    ;
+}
 
 :root {
     --primary-color:(#EEE5E9)
@@ -38,7 +44,7 @@ p{
 }
 
 nav{
-    background-color: var(--nav-background-color);
+    background-color:var(--nav-background-color);
     font-size: 1.2rem;
     display: flex;
 }
