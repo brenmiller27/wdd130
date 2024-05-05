@@ -3,6 +3,7 @@ body{
     font-family:var(--paragraph-font);
     max-width: 960px;
     padding: 20px;
+    background-color: #84A59D ;
 
 }
 
@@ -13,18 +14,18 @@ body{
 }
 
 :root {
-    --primary-color: (#EEE5E9)
-    --secondary-color: (#D64933)
-    --accent1-color: (#000000)
-    --accent2-color: (#92DCE5)
+    --primary-color: #EEE5E9 ;
+    --secondary-color: #D64933;
+    --accent1-color: #000000;
+    --accent2-color: #92DCE5;
 
     --heading-font:'Noto san',serif ;
     --paragraph-font:'san',serif ;
 
-    --nav-background-color: (#524948) 
-    --nav-link-color:(#70F8BA)
-    --nav-hover-link-color: (#CAFE48)
-    --nav-hover-background-color:(#7CB4B8)
+    --nav-background-color:#524948;
+    --nav-link-color:#70F8BA;
+    --nav-hover-link-color:#CAFE48;
+    --nav-hover-background-color:#7CB4B8;
   
 }
 
@@ -36,8 +37,12 @@ h1,h2,h3,h4,h5,h6{
 header{
     padding: 20px;
     background-color:var(--accent1-color);
+    color: var(--nav-hover-link-color);
 }
 
+title {
+    color: var(--nav-hover-link-color);
+}
 p{
     padding: 25px;
 }
@@ -50,7 +55,7 @@ nav{
 
 nav a{
     display: block;
-    color: var(--nav);
+    color: var(--nav-link-color);
     text-decoration: none;
     padding: 1rem;
 }
