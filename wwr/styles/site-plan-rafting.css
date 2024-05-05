@@ -19,12 +19,12 @@ body{
     --accent2-color: (#92DCE5)
 
     --heading-font:'Noto san',serif ;
-    --paragraph-font:'inconsolata',serif ;
+    --paragraph-font:'san',serif ;
 
-    --nav-background-color: (524948) 
-    --nav-link-color: (#70F8BA)
+    --nav-background-color: (#524948) 
+    --nav-link-color:(#70F8BA)
     --nav-hover-link-color: (#CAFE48)
-    --nav-hover-background-color: (#7CB4B8)
+    --nav-hover-background-color:(#7CB4B8)
   
 }
 
