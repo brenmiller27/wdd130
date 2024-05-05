@@ -18,8 +18,8 @@ body{
     --accent1-color:(#000000)
     --accent2-color:(#92DCE5)
 
-    --heading-font:'Noto san',serif;
-    --paragraph-font:'inconsolata',serif;
+    --heading-font:'Noto san',serif ;
+    --paragraph-font:'inconsolata',serif ;
 
     --nav-background-color:(524948) 
     --nav-link-color:(#70F8BA)
