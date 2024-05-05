@@ -7,8 +7,7 @@ body{
 }
 
 @font-face {
-    font-family: 'inconsolata';
-    font-size: large;
+    font-family:'Noto sans';
     src: url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
     ;
 }
@@ -22,10 +21,10 @@ body{
     --heading-font:'Noto san',serif;
     --paragraph-font:'inconsolata',serif;
 
-    --nav-background-color: (#52498) 
-    --nav-link-color: (#70F8BA)
-    --nav-hover-link-color: (#CAFE48)
-    --nav-hover-background-color: (#7CB4B8)
+    --nav-background-color:(524948) 
+    --nav-link-color:(#70F8BA)
+    --nav-hover-link-color:(#CAFE48)
+    --nav-hover-background-color:(#7CB4B8)
   
 }
 
