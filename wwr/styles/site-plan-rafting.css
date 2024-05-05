@@ -3,7 +3,7 @@ body{
     font-family:var(--paragraph-font);
     max-width: 960px;
     padding: 20px;
-    background-color: #84A59D ;
+    background-color: #7CB4B8 ;
 
 }
 
@@ -37,7 +37,7 @@ h1,h2,h3,h4,h5,h6{
 header{
     padding: 20px;
     background-color:var(--accent1-color);
-    color: var(--nav-hover-link-color);
+    color: var(--accent2-color);
 }
 
 title {
@@ -61,7 +61,7 @@ nav a{
 }
 
 nav a:link, nav a:visited{
-    color: var(--nav-a-link-color);
+    color: var(--nav-link-color);
 }
 
 nav a:hover{
