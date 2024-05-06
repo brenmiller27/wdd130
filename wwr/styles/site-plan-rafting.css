@@ -3,7 +3,7 @@ body{
     font-family:var(--paragraph-font);
     max-width: 960px;
     padding: 20px;
-    background-color: #7CB4B8 ;
+    background-color: #92DCE5;
 
 }
 
@@ -13,9 +13,10 @@ body{
     ;
 }
 
+
 :root {
-    --primary-color: #EEE5E9 ;
-    --secondary-color: #D64933;
+    --primary-color: #D64933 ;
+    --secondary-color: #EEE5E9;
     --accent1-color: #000000;
     --accent2-color: #92DCE5;
 
