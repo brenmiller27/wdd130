@@ -61,7 +61,6 @@ main img{
     height: auto;
     float: right;
     margin:0 0 1rem 1rem;
-    box-shadow: #333;
 }
 body {
     color: #E0FF4F;
@@ -113,7 +112,7 @@ footer {
 
 .box {
     margin: 1rem;
-    border: 1 px solid rgba(0, 0, 0, .1);
+    border: 1 px solid rgba(0, 0, 0,0.1);
     padding: 1rem;
     background-color: #DAD2D8;
     color: #A8201A;
