@@ -1,10 +1,21 @@
-h1{
-    color: aqua;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-a:link{
-    color: yellowgreen;
+h1{
+    color: aqua;
+    text-align: center;
+    margin: 0;
+    margin-left: 400px;
 }
+
+a link {
+  color: yellowgreen;
+}
+
+
 
 a:visited{
     color: gainsboro;
@@ -17,6 +28,7 @@ a:hover{
 .headings {
     color: rgb(35,110, 150);
     font-family: sans-serif;
+
 }
 
 main{
@@ -35,7 +47,7 @@ nav {
 }
 
 nav a {
-    color: rgb(250, 157, 0);
+    color: #0FFF95;
     text-decoration: none;
     padding: 15px;
     display: inline;
@@ -47,16 +59,22 @@ nav a {
 main img{
     width: 150px;
     height: auto;
+    float: right;
+    margin:0 0 1rem 1rem;
+    box-shadow: #333;
 }
-body  {
-    color:rgb(255, 89, 143);
-    background-color: #fff;
+body {
+    color: #E0FF4F;
+    font-family: sans-serif;
+    background-color: #143642; 
     margin: auto;
 }
+
 
 p {
     padding: 0;
     font-family: sans-serif;
+    
 }
 
 aside {
@@ -68,16 +86,45 @@ aside {
     color: #333;
     text-align: center;
     font-family: sans-serif;
+    width: 20em;
+    text-align: center;
+    position: relative;
+
 }
 
 aside img {
     width: 200px;
     height: auto;
 }
+aside h2 {
+    position: absolute;
+    top: 35px;
+    left: 120px;
+}
 
 footer {
     color: rgb(255, 215, 0);
     margin-top: 15px;
-    border-top: 1px solid #000;
+    border-top: 1px solid rgb(255, 215, 0);
     text-align: center;
+}
+
+/* Class Selectors */
+
+.box {
+    margin: 1rem;
+    border: 1 px solid rgba(0, 0, 0, .1);
+    padding: 1rem;
+    background-color: #DAD2D8;
+    color: #A8201A;
+
+}
+
+.box a{
+    color: #EC9A29;
+    text-decoration: none;
+}
+
+.box a:hover {
+    color: #CBA135;
 }
