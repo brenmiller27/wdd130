@@ -63,7 +63,7 @@ main img{
     margin:0 0 1rem 1rem;
 }
 body {
-    color: #E0FF4F;
+    color: #C7EF00;
     font-family: sans-serif;
     background-color: #143642; 
     margin: auto;
@@ -114,16 +114,16 @@ footer {
     margin: 1rem;
     border: 1px solid rgba(0, 0, 0,0.1);
     padding: 1rem;
-    background-color: #DAD2D8;
-    color: #A8201A;
+    background-color: #2E294E;
+    color: #D90368;
 
 }
 
 .box a{
-    color: #EC9A29;
+    color: #FFD400;
     text-decoration: none;
 }
 
 .box a:hover {
-    color: #CBA135;
+    color: #F05D23;
 }
