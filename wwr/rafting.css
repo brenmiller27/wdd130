@@ -8,7 +8,13 @@
 
 
 }
-
+div{
+    background-image: url("Hero.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
 body{
     color: var(--primary-color);
 }
@@ -16,7 +22,10 @@ h2 {
     color: var(--accent1-color);
 }
 
-
+h1{
+    color: var(--accent1-color);
+    text-align: center;
+}
 nav a {
     color: var(--accent1-color);
     padding: 10px ;
