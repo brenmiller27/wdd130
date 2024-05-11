@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --primary-color: #003B46;
+    --secondary-color: #07575B ;
+    --accent1-color: #C0DEE5 ;
+    --accent2-color: #61A4AD ;
+
+
+}
+
+body{
+    color: var(--primary-color);
+}
+h2 {
+    color: var(--accent1-color);
+}
+
+
+nav a {
+    color: var(--accent1-color);
+    padding: 10px ;
+    text-align: center;
+    text-decoration: none;
+}
+
+section {
+    text-align: center;
+}
+nav {
+  background-color: var(--secondary-color);
+}
