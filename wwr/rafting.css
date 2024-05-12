@@ -7,6 +7,7 @@
 header img {
     float: right;
 }
+
 :root {
     --primary-color: #D64933 ;
     --secondary-color: #EEE5E9;
@@ -21,6 +22,23 @@ header img {
     --nav-hover-link-color:#CAFE48;
     --nav-hover-background-color:#7CB4B8;
 }
+
+nav {
+    text-align: center;
+    background-color: #7d535311;
+    margin: 0%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+nav a {
+    color: #0FFF95;
+    text-decoration: none;
+    padding: 15px;
+    display: inline;
+    overflow: hidden;
+    text-align: center;
+}
+
 body {
     color: var(--accent1-color);
     font-family: var(--paragraph-font);
@@ -33,6 +51,10 @@ header a {
 p{
     padding: 25px;
 }
+
+h1 {
+    text-align: center;
+}
 .hero div{
     position: relative;
 }
@@ -40,6 +62,7 @@ p{
     display: block;
     width: 100%;
     height: auto;
+    
 }
 article img {
     float: right;
