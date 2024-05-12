@@ -1,25 +1,48 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
-
 :root {
-    --primary-color: #003B46;
-    --secondary-color: #07575B ;
-    --accent1-color: #C0DEE5 ;
-    --accent2-color: #61A4AD ;
-    --heading-font:'inconsolata', serif ;
-    --paragraph-font: 'noto san', serif;
-}
+    --primary-color: #D64933 ;
+    --secondary-color: #EEE5E9;
+    --accent1-color: #000000;
+    --accent2-color: #92DCE5;
 
+    --heading-font:'Noto san',serif ;
+    --paragraph-font:'inconsolata',serif ;
+
+    --nav-background-color:#524948;
+    --nav-link-color:#70F8BA;
+    --nav-hover-link-color:#CAFE48;
+    --nav-hover-background-color:#7CB4B8;
+}
 body {
     color: var(--accent1-color);
 
 }
 
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+article img {
+    float: right;
+}
 h1{
     font-family: var(--heading-font);
     color: var(--accent1-color);
+    position: absolute;
 }
-
+article {
+    position: absolute;
+}
 nav a {
-    color: yellowgreen;
+    color:var(--accent2-color) ;
+    text-align: center;
+    
+}
+nav a link :hover {
+    color: #CAFE48;
+}
+nav img{
+  size: 50px;
 }
