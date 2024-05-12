@@ -15,7 +15,7 @@
     --accent4-color: #EF709D ;
     --accent5-color: #E6F14A ;
     --accent6-color: #23CE6B ;
-    --accent7-color: #EBBAB9 ;
+    --accent7-color: #99e1d9 ;
 
     --heading-font:'Noto san',serif ;
     --paragraph-font:'inconsolata',serif ;
@@ -82,8 +82,11 @@ section p{
     
 }
 
+section h2 {
+    margin-top: 15px;
+}
 p{
-    color: var(--primary-color);
+    color: var(--accent7-color);
     font-family: 'Noto san';
     padding: 0;
     margin-top: 100px;
