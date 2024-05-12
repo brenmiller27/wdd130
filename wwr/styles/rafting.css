@@ -116,7 +116,6 @@ nav a:link, nav a:visited{
 
 nav a:hover{
     color: var(--nav-hover-link-color);
-    background-color: none;
 }
 h2{
     color: var(--nav-hover-link-color);
