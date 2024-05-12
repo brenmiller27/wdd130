@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
+@font-face {
+    font-family: 'Noto san';
+    src: url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+}
+header img {
+    float: right;
+}
 :root {
     --primary-color: #D64933 ;
     --secondary-color: #EEE5E9;
@@ -16,9 +23,19 @@
 }
 body {
     color: var(--accent1-color);
+    font-family: var(--paragraph-font);
+    background-color: #000000;
 
 }
-
+header a {
+    color: var(--nav-hover-link-color);
+}
+p{
+    padding: 25px;
+}
+.hero div{
+    position: relative;
+}
 .hero img {
     display: block;
     width: 100%;
@@ -27,7 +44,7 @@ body {
 article img {
     float: right;
 }
-h1{
+.hero div h1{
     font-family: var(--heading-font);
     color: var(--accent1-color);
     position: absolute;
@@ -35,14 +52,30 @@ h1{
 article {
     position: absolute;
 }
-nav a {
-    color:var(--accent2-color) ;
-    text-align: center;
-    
+
+nav{
+    background-color:var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
 }
-nav a link :hover {
-    color: #CAFE48;
+
+nav a{
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
 }
-nav img{
-  size: 50px;
+
+nav a:link, nav a:visited{
+    color: var(--nav-link-color);
+}
+
+nav a:hover{
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+
+.sociallinks {
+    padding: 20px;
+    margin: 0%;
 }
