@@ -1,45 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
+
 :root {
     --primary-color: #003B46;
     --secondary-color: #07575B ;
     --accent1-color: #C0DEE5 ;
     --accent2-color: #61A4AD ;
+    --heading-font:'inconsolata', serif ;
+    --paragraph-font: 'noto san', serif;
+}
 
-
-}
-div{
-    background-image: url("Hero.png");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-}
-body{
-    color: var(--primary-color);
-}
-h2 {
+body {
     color: var(--accent1-color);
+
 }
 
 h1{
+    font-family: var(--heading-font);
     color: var(--accent1-color);
-    text-align: center;
-    position: center;
-}
-nav a {
-    color: var(--accent1-color);
-    padding: 10px ;
-    text-align: center;
-    text-decoration: none;
 }
 
-nav a :hover {
+nav a {
     color: yellowgreen;
-}
-section {
-    text-align: center;
-}
-nav {
-  background-color: var(--secondary-color);
 }
