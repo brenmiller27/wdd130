@@ -29,7 +29,7 @@
 header img {
     float: right;
     margin-bottom: 0;
-    margin-left: 250px ;
+    margin-left: 115px ;
     font-family: 'noto san';
 }
 
@@ -62,7 +62,7 @@ section p{
 .hero h1, article {
     position: absolute;
     color: var(--accent5-color);
-    text-align: center ;
+    text-align: center;
 
 }
 
@@ -96,7 +96,7 @@ nav{
     font-size: 1.2rem;
     display: flex;
     text-align: center;
-    margin-left: 100px;
+    margin-left: 10px;
     padding: 0%;
 }
 
