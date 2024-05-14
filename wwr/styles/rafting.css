@@ -68,10 +68,12 @@ section p{
 
 .hero h1 {
     margin-left: 450px;
+    background-color: var(--accent3-color);
+    opacity: 0.75;
 }
 .hero article p{
     margin-bottom: 120px;
-    top: 120px;
+    top: 75px;
 }
 
 .hero article img {
@@ -87,10 +89,14 @@ section h2 {
     margin-top: 15px;
 }
 .hero p{
-    color: var(--accent7-color);
+    color: var(--accent5-color);
     font-family: 'Noto san';
     padding: 0;
-    margin-top: 100px;
+    margin-top: 75px;
+    background-color: var(--nav-hover-background-color);
+    position: relative;
+    opacity: 0.9;
+    border-left: 15px;
 }
 nav{
     font-size: 1.2rem;
