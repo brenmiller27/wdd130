@@ -8,6 +8,8 @@ h1{
     color: aqua;
     text-align: center;
     margin: 0;
+    border-bottom: 1px solid aqua;
+    top: 15px;
 }
 
 header, footer, .grid{

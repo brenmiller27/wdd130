@@ -93,9 +93,7 @@ section h2 {
     font-family: 'Noto san';
     padding: 0;
     margin-top: 75px;
-    background-color: var(--nav-hover-background-color);
     position: relative;
-    opacity: 0.9;
     border-left: 15px;
 }
 nav{
