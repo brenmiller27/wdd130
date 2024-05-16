@@ -5,7 +5,7 @@
 }
 
 h1{
-    color: aqua;
+    color: aqua ;
     text-align: center;
     margin: 0;
     border-bottom: 1px solid aqua;
@@ -54,7 +54,7 @@ a:hover{
 
 nav {
     text-align: center;
-    background-color: #7d535311;
+    background-color: #6f2da8;
     padding: 1rem;
     display: flex;
     justify-content: space-evenly;
@@ -65,7 +65,7 @@ nav {
 }
 
 nav a {
-    color: #0FFF95;
+    color: #fff;
     display: block;
     text-decoration: none;
     padding: 0.5rem; 
@@ -84,9 +84,9 @@ main img{
     margin:0 0 1rem 1rem;
 }
 body {
-    color: #C7EF00;
+    color: #9DFFF9;
     font-family: sans-serif;
-    background-color: #143642; 
+    background-color: #0D21A1; 
     margin: auto;
 }
 
@@ -103,7 +103,7 @@ aside {
     border: 1px solid rgb(0,0,0,0.2) ;
     padding: 1rem;
     background-color: #eee ;
-    color: #333;
+    color: #642CA9;
     text-align: center;
     font-family: sans-serif;
     width: 20em;
@@ -135,16 +135,16 @@ footer {
     margin: 1rem;
     border: 1px solid rgba(0, 0, 0,0.1);
     padding: 1rem;
-    background-color: #2E294E;
-    color: #D90368;
+    background-color: #6f2da8;
+    color: #89FC00;
 
 }
 
 .box a{
-    color: #FFD400;
+    color: #FFFF00;
     text-decoration: none;
 }
 
 .box a:hover {
-    color: #F05D23;
+    color: #FF9F1C;
 }
