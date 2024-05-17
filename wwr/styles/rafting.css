@@ -36,6 +36,7 @@
 .grid img {
     float:left ;
     width: 200px;
+    justify-content: left;
     
 }
 
@@ -84,7 +85,7 @@ section p{
 }
 
 .hero article img {
-    width:150px;
+    width: 150px;
     float: right;
     top: 47px ;
     margin-right: 50px ;
