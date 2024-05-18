@@ -15,10 +15,11 @@
 .grid img {
     margin: 0;
     margin-right: 150px;
-    width: 200px;
+    width: 175px;
     justify-content: left;
     
 }
+
 
 
 :root {
@@ -38,7 +39,7 @@
     --nav-background-color: #ffff;
     --nav-link-color:#70F8BA;
     --nav-hover-link-color:#CAFE48;
-    --nav-hover-background-color:#211A1E;
+    --nav-hover-background-color:#000;
 }
 
 
@@ -58,7 +59,6 @@ body{
 .hero h1, article {
     position: absolute ;
     text-align: center;
-    justify-content: center;
     color: var(--accent5-color) ;
 
 }
@@ -66,15 +66,13 @@ body{
 
 .hero div {
     position: relative;
+    float: inline-start;
 
 }
 
 .hero h1 {
     color: var(--accent1-color) ;
-    opacity: 0.75;
-    display: grid;
     text-align: center;
-    justify-self: center;
     bottom: 50px;
 
 }
@@ -87,14 +85,18 @@ section p {
 .hero article img {
     width: 200px;
     justify-content: right;
-    float: right;
+    float: inline-end;
     margin-right: 50px;
-    object-position: right top;
     
 }
 section h2 {
     margin-top: 15px;
     color: cyan;
+    margin-right: 50px;
+}
+
+figcaption {
+    margin-right: 50px;
 }
 
 .hero p{
@@ -114,7 +116,7 @@ nav{
 }
 
 nav a{
-    display: flex;
+    display: contents;
     color: var(--nav-hover-link-color);
     font-family: 'noto sans';
     text-decoration: none;
@@ -137,7 +139,7 @@ nav a:hover{
     color: var(--accent5-color);
 }
 h2{
-    color: var();
+    color: var(--accent4-color);
     text-align: center;
 }
 
@@ -154,15 +156,12 @@ footer {
     font-family: 'inconsolata';
     display: grid;
     text-align: center;
-    margin-right: 200px;
-    bottom: 50px;
-
+    margin-left: 200px;
+    margin-top: 50px;
+    bottom: 200px;
 }
 
 .sociallinks {
-    display: contents;
-    justify-content: right ;
-    align-content: right;
-    margin-left: 300px;
+    float: right;
+    display: inline-flex;
 }
-
