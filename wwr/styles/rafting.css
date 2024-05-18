@@ -24,13 +24,13 @@
 :root {
     --primary-color: #FF9F1C ;
     --secondary-color: #EEE5E9;
-    --accent1-color: #000;
-    --accent2-color: #3772FF;
+    --accent1-color: #00FFFF;
+    --accent2-color: #5CF64A;
     --accent3-color: #EC0B43;
-    --accent4-color: #EF709D ;
-    --accent5-color: #E6F14A ;
+    --accent4-color: #FFD400;
+    --accent5-color: #E56399 ;
     --accent6-color: #23CE6B ;
-    --accent7-color: #99e1d9 ;
+    --accent7-color: #ADFC92 ;
 
     --heading-font:'Noto san',serif ;
     --paragraph-font:'inconsolata',serif ;
@@ -38,13 +38,13 @@
     --nav-background-color: #ffff;
     --nav-link-color:#70F8BA;
     --nav-hover-link-color:#CAFE48;
-    --nav-hover-background-color:#7CB4B8;
+    --nav-hover-background-color:#211A1E;
 }
 
 
 body{
     font-family: var(--paragraph-font) ;
-    background-color: var(--nav-background-color);
+    background-color: var(--nav-hover-background-color);
     
 }
 
@@ -57,21 +57,26 @@ body{
 
 .hero h1, article {
     position: absolute ;
+    text-align: center;
+    justify-content: center;
     color: var(--accent5-color) ;
+
 }
 
 
-.hero div{
+.hero div {
     position: relative;
+
 }
 
 .hero h1 {
-    color: var(--accent7-color);
-    background-color: var(--accent3-color);
+    color: var(--accent1-color) ;
     opacity: 0.75;
+    display: grid;
     text-align: center;
     justify-self: center;
     bottom: 50px;
+
 }
 
 section p {
@@ -81,15 +86,15 @@ section p {
 
 .hero article img {
     width: 200px;
-    margin-left: 200px;
     justify-content: right;
     float: right;
     margin-right: 50px;
-    margin-bottom: 100px;
+    object-position: right top;
     
 }
 section h2 {
     margin-top: 15px;
+    color: cyan;
 }
 
 .hero p{
@@ -105,12 +110,15 @@ nav{
     text-align: center;
     margin-right: 400px;
     padding: 0%;
+    justify-content: space-evenly;
 }
 
 nav a{
     display: flex;
     color: var(--nav-hover-link-color);
+    font-family: 'noto sans';
     text-decoration: none;
+    font-size: 1.2rem;
     padding: 1rem;
     text-align: center;
     justify-content: space-evenly;
@@ -121,23 +129,16 @@ nav a:link, nav a:visited{
     color: var(--accent2-color);
     display: inline;
     overflow: hidden;
+    display: flex;
     align-items: center;
 }
 
 nav a:hover{
-    color: var(--nav-hover-link-color);
+    color: var(--accent5-color);
 }
 h2{
-    color: var(--nav-hover-link-color);
+    color: var();
     text-align: center;
-}
-footer {
-    color: var(--accent4-color);
-    font-family: 'inconsolata';
-    text-align: center;
-    bottom: 50px;
-    justify-content: right;
-
 }
 
 figcaption { 
@@ -148,9 +149,20 @@ figcaption {
     color: var(--accent4-color);
 }
 
-.sociallinks {
-    justify-content: right ;
-    align-items: right;
-    display: contents;
+footer {
+    color: var(--accent1-color);
+    font-family: 'inconsolata';
+    display: grid;
+    text-align: center;
     margin-right: 200px;
+    bottom: 50px;
+
 }
+
+.sociallinks {
+    display: contents;
+    justify-content: right ;
+    align-content: right;
+    margin-left: 300px;
+}
+
