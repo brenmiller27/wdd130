@@ -155,13 +155,12 @@ figcaption {
 footer {
     color: var(--accent1-color);
     font-family: 'inconsolata';
-    display: block;
     text-align: center;
-    margin-left: 200px;
+    margin-right: 200px;
     margin-top: 50px;
     bottom: 200px;
 }
 
 .sociallinks {
-    display: contents;
+    justify-content: right;
 }
