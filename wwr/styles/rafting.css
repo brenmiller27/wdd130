@@ -6,6 +6,20 @@
     src: url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 }
 
+.grid {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.grid img {
+    margin: 0;
+    margin-right: 150px;
+    width: 200px;
+    justify-content: left;
+    
+}
+
 
 :root {
     --primary-color: #FF9F1C ;
@@ -27,19 +41,6 @@
     --nav-hover-background-color:#7CB4B8;
 }
 
-.grid {
-    display: grid;
-    align-content: center;
-    justify-content: center;
-}
-
-.grid img {
-    float:left ;
-    width: 200px;
-    justify-content: left;
-    
-}
-
 
 body{
     font-family: var(--paragraph-font) ;
@@ -47,68 +48,62 @@ body{
     
 }
 
-section p{
-    margin-bottom: 30px;
-    margin-top: 25px;
-    color: var(--accent4-color);
-}
-
 .hero img {
-    display: block;
+    display: block ;
     width: 100%;
     height: auto ;
 
 }
 
-.hero div {
-    font-family: var(--heading-font);
-    color: var(--accent6-color);
+.hero h1, article {
+    position: absolute ;
+    color: var(--accent5-color) ;
+}
+
+
+.hero div{
     position: relative;
 }
 
-.hero h1, article {
-    position: absolute;
-    color: var(--accent5-color);
-    text-align: center;
-
-}
-
 .hero h1 {
-    margin-left: 450px;
-    color: var(--accent6-color);
+    color: var(--accent7-color);
     background-color: var(--accent3-color);
     opacity: 0.75;
+    text-align: center;
+    justify-self: center;
+    bottom: 50px;
 }
-.hero article p{
-    margin-bottom: 120px;
-    top: 75px;
+
+section p {
+    color: var(--accent2-color);
+    font-family: 'noto san';
 }
 
 .hero article img {
-    width: 150px;
+    width: 200px;
+    margin-left: 200px;
+    justify-content: right;
     float: right;
-    top: 47px ;
-    margin-right: 50px ;
-    margin-top: 50px;
+    margin-right: 50px;
+    margin-bottom: 100px;
     
 }
-
 section h2 {
     margin-top: 15px;
 }
+
 .hero p{
     color: var(--accent5-color);
     font-family: 'Noto san';
     padding: 0;
     margin-top: 75px;
-    position: relative;
     border-left: 15px;
 }
 nav{
     font-size: 1.2rem;
     display: flex;
     text-align: center;
-    margin-left: 10px;
+    margin-right: 400px;
     padding: 0%;
 }
 
@@ -118,6 +113,7 @@ nav a{
     text-decoration: none;
     padding: 1rem;
     text-align: center;
+    justify-content: space-evenly;
     margin-top: 40px;
 }
 
@@ -133,17 +129,28 @@ nav a:hover{
 }
 h2{
     color: var(--nav-hover-link-color);
+    text-align: center;
 }
 footer {
     color: var(--accent4-color);
     font-family: 'inconsolata';
-    text-align: left;
+    text-align: center;
+    bottom: 50px;
+    justify-content: right;
+
 }
+
+figcaption { 
+    text-align: center;
+    font-family: 'inconsolata';
+    font-size: 1.2rem;
+    margin-right: 200px;
+    color: var(--accent4-color);
+}
+
 .sociallinks {
-    padding: 0 ;
-    margin-left: auto;
-    margin-right: auto;
-    align-self: auto;
-    margin-bottom: 50px;
-    margin-top: 0px;
+    justify-content: right ;
+    align-items: right;
+    display: contents;
+    margin-right: 200px;
 }
