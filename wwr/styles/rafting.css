@@ -156,11 +156,9 @@ footer {
     display: inline-flex;
     color: var(--accent1-color);
     font-family: 'inconsolata';
-    margin-left: 350px; 
-    padding: 0;
-    margin: 2;
+    margin-left: 150px; 
+    text-align: center ;
     margin-top: 50px ;
-    text-align: initial;
     justify-content: center;
 }
 
@@ -171,5 +169,4 @@ footer {
     padding: 0;
     margin-right: 200px;
    margin-bottom: 300px;
-    margin: 0;
 }
