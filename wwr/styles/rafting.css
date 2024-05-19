@@ -27,7 +27,7 @@
     --accent2-color: #5CF64A;
     --accent3-color: #EC0B43;
     --accent4-color: #FFD400;
-    --accent5-color: #E56399 ;
+    --accent5-color: #FF4D80 ;
     --accent6-color: #23CE6B ;
     --accent7-color: #ADFC92 ;
 
@@ -37,7 +37,7 @@
     --nav-background-color: #ffff;
     --nav-link-color:#70F8BA;
     --nav-hover-link-color:#CAFE48;
-    --nav-hover-background-color:#000;
+    --nav-hover-background-color:#353B3C;
 }
 
 
@@ -153,14 +153,23 @@ figcaption {
 }
 
 footer {
+    display: inline-flex;
     color: var(--accent1-color);
     font-family: 'inconsolata';
-    text-align: center;
-    margin-right: 200px;
-    margin-top: 50px;
-    bottom: 200px;
+    margin-left: 350px; 
+    padding: 0;
+    margin: 2;
+    margin-top: 50px ;
+    text-align: initial;
+    justify-content: center;
 }
 
 .sociallinks {
-    justify-content: right;
+    margin-left: 150px;
+    float: right;
+    top: 10px;
+    padding: 0;
+    margin-right: 200px;
+   margin-bottom: 300px;
+    margin: 0;
 }
