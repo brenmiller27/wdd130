@@ -11,6 +11,7 @@
     justify-content: center;
     margin: 0;
     margin-left: 160px;
+    background-color: var(--nav-hover-background-color);
     justify-content: space-between;
 }
 
@@ -29,8 +30,8 @@
     --accent1-color: #FFBA08;
     --accent2-color: #D00000;
     --accent3-color: #7DF9FF;
-    --accent4-color: hsl(58, 85%, 55%);
-    --accent5-color: #AFECE7;
+    --accent4-color: #F9DC5C;
+    --accent5-color: #6153CC;
     --accent6-color: #23CE6B ;
     --accent7-color: #FF70A6;
 
@@ -80,7 +81,7 @@ body{
 
 
 section p {
-    color: var(--accent5-color);
+    color: var(--accent3-color);
     font-family: 'noto san';
 }
 
@@ -147,6 +148,7 @@ nav a{
     display: contents;
     color: var(--primary-color);
     font-family: 'noto sans';
+    background-color: var(--nav-hover-background-color);
     text-decoration: none;
     font-size: 1.2rem;
     padding: 1rem;
@@ -174,6 +176,7 @@ h2{
 figcaption { 
     text-align: center;
     font-family: 'inconsolata';
+    background-color: var(--nav-hover-background-color);
     font-size: 1.2rem;
     margin-right: 200px;
     color: var(--accent4-color);
