@@ -115,17 +115,20 @@ section h2 {
     margin-right: 60px;
 }
 
+.column {
+    display: grid ;
+}
+
 .column img{
-    display:grid;
     justify-content: center;
     align-content: center;
     float: right;
+    margin-left: 450px;
 }
 
-.column p {
-    justify-content: left;
-    text-align: left;
-    margin-left: 300px;
+.box-1 {
+    float: left;
+    text-size-adjust: 20%;
 }
 .hero article p{
     color: var(--accent3-color);
@@ -145,7 +148,7 @@ nav{
 }
 
 nav a{
-    display: contents;
+    display: flex;
     color: var(--primary-color);
     font-family: 'noto sans';
     background-color: var(--nav-hover-background-color);
