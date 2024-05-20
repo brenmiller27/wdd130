@@ -8,15 +8,19 @@
 
 .grid {
     display: flex;
-    align-content: center;
+    align-content: right;
     justify-content: center;
+    margin: 0;
+    margin-left: 160px;
+    justify-content: space-between;
 }
 
 .grid img {
     margin: 0;
     margin-right: 150px;
-    width: 175px;
+    width: 150px;
     justify-content: left;
+
     
 }
 
@@ -93,9 +97,23 @@ section h2 {
     color: cyan;
     margin-right: 50px;
 }
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
 
-figcaption {
-    margin-right: 50px;
+.row{
+    display: inline-block;
+    margin-top: 100px;
+    margin-right: auto;
+    justify-content: space-evenly;
+}
+
+.row figcaption {
+    display: table;
+    margin-left: 60px;
+    margin-right: 60px;
 }
 
 .hero article p{
@@ -157,6 +175,7 @@ footer {
     margin-left: 350px;
     text-align: center ;
     display: flex;
+    justify-content: space-between;
 }
 
 
