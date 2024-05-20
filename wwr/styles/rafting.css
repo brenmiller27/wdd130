@@ -41,7 +41,7 @@
     --nav-background-color: #ffff;
     --nav-link-color:#70F8BA;
     --nav-hover-link-color:#CAFE48;
-    --nav-hover-background-color:#413C58;
+    --nav-hover-background-color:#17183B;
 }
 
 
@@ -82,7 +82,7 @@ body{
 
 
 section p {
-    color: var(--accent2-color);
+    color: var(--accent7-color);
     font-family: 'noto san';
 }
 
@@ -106,7 +106,7 @@ section h2 {
 .row{
     display: inline-block;
     margin-top: 100px;
-    margin-right: auto;
+    margin-right: 0;
     justify-content: space-evenly;
 }
 
@@ -116,6 +116,18 @@ section h2 {
     margin-right: 60px;
 }
 
+.column img{
+    display:grid;
+    justify-content: center;
+    align-content: center;
+    float: right;
+}
+
+.column p {
+    justify-content: left;
+    text-align: left;
+    margin-left: 300px;
+}
 .hero article p{
     color: var(--accent5-color);
     font-family: 'Noto san';
