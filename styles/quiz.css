@@ -34,6 +34,8 @@ body {
 form {
     align-content: center;
     text-align: left;
+    margin-top: 30px;
+    margin-left: 400px;
 }
 
 h1 {
@@ -53,6 +55,7 @@ label {
 
 button {
     color: var(--background-color);
+    width: 300px;
 }
 
 button :hover {
