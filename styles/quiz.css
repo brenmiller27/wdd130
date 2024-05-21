@@ -28,7 +28,7 @@
 }
 
 body {
-    background-color: var(--background-color)
+    background-color: var(--accent6-color)
 }
 
 form {
@@ -53,4 +53,8 @@ label {
 
 button {
     color: var(--background-color);
+}
+
+button :hover {
+    color: var(--text-color)
 }
