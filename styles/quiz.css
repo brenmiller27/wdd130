@@ -52,11 +52,38 @@ label {
     color: #FAF33E;
     font-family: 'Open sans';
 }
+input {
+    padding: .5em;
+    min-height: .5em;
+    min-width: 50%;
+    border: #DBCBD8;
+}
+
+select {
+    padding: .5em;
+    min-height: .5em;
+    min-width: 55%;
+    border: #DBCBD8;
+}
+textarea {
+    min-height: 2em;
+    min-width: 45%;
+    padding: 3em;
+    border: solid 1px #999;
+}
 
 button {
-    color: var(--background-color);
+    color: var(--accent4-color);
+    background-color: var(--acent7-color);
+    border-radius: 5px;
     width: 300px;
+    justify-content: center;
+    min-height: 2em;
+    min-width: 50%;
+    padding: .3em;
+    border: solid 1px #999;
 }
+
 
 button :hover {
     color: var(--text-color)
