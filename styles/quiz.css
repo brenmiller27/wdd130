@@ -18,8 +18,8 @@
     --accent1-color: #101935 ;
     --accent2-color: #F2FDFF;
     --accent3-color: #DBCBD8;
-    --accent4-color: hsl(190, 64%, 34%);
-    --acent5-color: #FAF33E; 
+    --accent4-color: #2C365E;
+    --acent5-color: #5F00BA; 
     --accent6-color: #363537;
     --accent7-color:#000 ;
 
@@ -28,7 +28,7 @@
 }
 
 body {
-    background-color: var(--accent6-color)
+    background-color: var(--accent4-color);
 }
 
 form {
@@ -73,15 +73,17 @@ textarea {
 }
 
 button {
-    color: var(--accent4-color);
-    background-color: var(--acent7-color);
+    color: var(--text-color);
+    font-family: 'Open sans';
+    background-color: var(--acent5-color);
     border-radius: 5px;
     width: 300px;
     justify-content: center;
-    min-height: 2em;
-    min-width: 50%;
+    min-height: 3em;
+    min-width: 55%;
     padding: .3em;
     border: solid 1px #999;
+    text-align: center;
 }
 
 
