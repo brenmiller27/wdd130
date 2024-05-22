@@ -24,7 +24,7 @@
     --accent7-color:#000 ;
 
     --background-color:#0C0C0C;
-    --text-color: #DB222A;
+    --text-color: #2AF5FF;
 }
 
 body {
@@ -55,7 +55,7 @@ label {
 input {
     padding: .5em;
     min-height: .5em;
-    min-width: 50%;
+    min-width: 53%;
     border: #DBCBD8;
 }
 
@@ -87,6 +87,6 @@ button {
 }
 
 
-button :hover {
-    color: var(--text-color)
+button a :hover {
+    color: var(--accent4-color);
 }
