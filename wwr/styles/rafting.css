@@ -1,27 +1,32 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
 @font-face {
     font-family:'Noto san';
     src: url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 }
 
+@font-face {
+    font-family: 'Ubuntu sans';
+    src: url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+}
+
 .grid {
-    display: flex;
-    justify-content: center;
-    margin: 0;
-    margin-left: 160px;
-    background-color: var(--nav-hover-background-color);
+    display: grid;
+    text-align: center;
     justify-content: space-between;
 }
 
-.grid img {
-    margin: 0;
-    margin-right: 150px;
-    width: 150px;
-    justify-content: left;
-
-    
+.grid image {
+    float: left;
+    justify-content: space-between;
+    margin-left: 200px;
+}
+header img  {
+    width: 200px;
 }
 
 :root {
@@ -29,18 +34,18 @@
     --secondary-color: #EEE5E9;
     --accent1-color: #FFBA08;
     --accent2-color: #D00000;
-    --accent3-color: #7DF9FF;
-    --accent4-color: #F9DC5C;
+    --accent3-color: #000;
+    --accent4-color: #000;
     --accent5-color: #6153CC;
     --accent6-color: #23CE6B ;
-    --accent7-color: #FF70A6;
+    --accent7-color: #0D1F2D;
 
     --heading-font:'Noto san',serif ;
     --paragraph-font:'inconsolata',serif ;
 
     --nav-link-color:#70F8BA;
     --nav-hover-link-color:#CAFE48;
-    --nav-hover-background-color:#032B43;
+    --nav-hover-background-color:#ffff;
 }
 
 
@@ -60,8 +65,8 @@ body{
 .hero h1, article {
     position: absolute ;
     text-align: center;
-    bottom: 150px;
-    color: var(--accent3-color) ;
+    bottom: 200px;
+    color: var(--accent6-color) ;
 
 }
 
@@ -70,8 +75,19 @@ body{
 
 }
 
+
+h1{
+    color: var(--accent4-color);
+    text-align: center;
+    font-family: 'inconsolata';
+}
+.maps {
+    min-height: 30%;
+    float: right;
+    border: 0;
+}
 .hero h1 {
-    color: var(--accent4-color) ;
+    color: #fff ;
     text-align: center;
     bottom: 300px;
     margin-left: 450px;
@@ -82,7 +98,7 @@ body{
 
 section p {
     color: var(--accent3-color);
-    font-family: 'noto san';
+    font-family: 'ubuntu sans';
 }
 
 .hero article img {
@@ -100,6 +116,96 @@ section h2 {
     display: flex;
     justify-content: space-evenly;
     
+}
+
+.contact-box {
+    background-color: var(--nav-hover-background-color);
+    display: flex;
+}
+
+
+.contact-left {
+    flex-basis:  60%;
+    padding: 40px 60px;
+    font-weight: 600;
+}
+
+
+.contact-right {
+     flex-basis:  40%;
+    padding: 40px;
+    background-color: #333;
+
+}
+
+
+.input-row .inputrow {
+    flex-basis: 45%;
+}
+h3 {
+    color: var(--nav-hover-link-color);
+    font-family: 'Open sans';
+    text-align: center;
+}
+
+p {
+    color: var(--accent3-color);
+    text-align: center;
+    font-family: 'open sans';
+}
+.signup {
+    width: 80%;
+    margin: 50px auto;
+    margin-bottom: 50px;
+    border: 2px solid var(--accent3-color);
+}
+
+.signup h1 {
+    color: var(--accent3-color);
+    text-align: center;
+}
+
+textarea {
+    width: 100%;
+    outline: none;
+    border: 1px solid #ccc;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+input {
+    
+    min-height: .5em;
+    min-width: 60%;
+    border: none ;
+    padding: 5px;
+    align-content: center;
+    margin-left: 10px;
+    width: 100%;
+    outline: none;
+}
+
+label {
+    font-family: 'open sans';
+    color: var(--accent3-color) ;
+}
+
+button {
+    color: var(--nav-link-color);
+    font-family: 'open sans';
+    font-size: 1rem;
+    background-color: var(--accent5-color);
+    border-radius: 30px;
+    width: 200px;
+    justify-content: center;
+    min-height: 2.5em;
+    min-width: 40%;
+    border: solid 1px #999;
+    text-align: center;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-family: 'ubuntu sans';
+    box-shadow: 0px 5px 15px 0px rgb(28, 0, 181, 0.3);
 }
 
 .row{
@@ -126,12 +232,8 @@ section h2 {
     margin-left: 450px;
 }
 
-.box-1 {
-    float: left;
-    text-size-adjust: 20%;
-}
 .hero article p{
-    color: var(--accent3-color);
+    color: var(--nav-hover-background-color);
     font-family: 'Noto san';
     padding: 0;
     margin-top: 75px;
@@ -162,14 +264,15 @@ nav a{
 
 nav a:link, nav a:visited{
     color: var(--accent4-color);
-    display: inline;
+    justify-content: space-between;
+    text-align: center;
     overflow: hidden;
     display: flex;
     align-items: center;
 }
 
 nav a:hover{
-    color: var(--accent5-color);
+    color: var(--accent1-color);
 }
 
 h2{
@@ -178,7 +281,7 @@ h2{
 
 figcaption { 
     text-align: center;
-    font-family: 'inconsolata';
+    font-family: 'ubuntu sans';
     background-color: var(--nav-hover-background-color);
     font-size: 1.2rem;
     margin-right: 200px;
@@ -186,22 +289,14 @@ figcaption {
 }
 
 footer {
-    color: var(--accent4-color);
-    font-family: 'inconsolata';
     margin-top: 100px;
-    margin-left: 350px;
-    text-align: center ;
-    display: flex;
-    justify-content: space-between;
+    display: contents ;
+    color: var(--accent4-color);
+    font-family: 'ubuntu sans';
 }
 
-
 .sociallinks {
-    float: right ;
-    margin-left: 200px;
-    margin-inline: 50px;
-    justify-content: right;
-    display: inline-flex;
-    bottom: 100px;
-    position: relative;
+    float: right;
+    margin-left: 450px;
+    
 }
