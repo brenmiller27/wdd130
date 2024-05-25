@@ -306,18 +306,24 @@ figcaption {
 footer {
     text-align: center;
     padding-top: 60px;
-    margin-left: 270px;
+    margin-left: 300px;
     color: var(--accent4-color);
     clear: both;
     font-family: 'open sans';
 }
 
-
+.wireframe {
+    text-align: center;
+    display: contents;
+    float: left;
+    margin: 0 15px;
+    margin-bottom: 100px;
+}
 
 .sociallinks{
     display: inline-flex;
     margin: 0 10px;
-    margin-left: 300px;
+    margin-left: 200px;
 
 
 }
