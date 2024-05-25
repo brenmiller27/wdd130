@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
         <title>White water rafting Contact us Page</title>
-        <meta name="description" content="online company contact page wdd 130">
+        <meta name="description" content="contacting rafting page wdd 130">
         <meta name="author" content="Bren Miller">
         <link rel="stylesheet" href="styles/rafting.css">
         <meta http-equiv="refresh" content="30">
@@ -13,11 +13,13 @@
         <header>
             <div class="grid">
             <nav>
-                <img src="images/raftinglogo.jpg" alt="rafting logo">
-                <a href="index.html">Home</a>
-                <a href="about.html">About Us</a>
-                <a href="trips.html">Trips</a>
-                <a href="contact.html">Contact</a>
+                <img src="images/raftinglogo.jpg" alt="rafting logo" width="200">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li> <a href="trips.html">Trips</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
             </nav>
         </div>
         </header>
@@ -27,16 +29,16 @@
             <p>Our team is here to address your needs</p>
             <div class="container">
                 <figure class="row">
-                <img src="images/Whitewaterrating1.png" alt="Rafting Logo" width="270">
-                <figcaption>Wild Rapids</figcaption>
+                <img src="images/RaftGuide.png" alt="Rafting guide" width="230">
+                <figcaption>Get expert advise</figcaption>
                 </figure>
                 <figure class="row">
-                <img src="images/Whitewaterrafting2.png" alt="Rafting logo" width="250">
+                <img src="images/Raftingguide2.png" alt="Rafting guide" width="250">
                 <figcaption>Teamwork</figcaption>
                 </figure>
                 <figure class="row">
-                <img src="images/Moabrafting.png" alt="Rafting in Moab" width="200">
-                <figcaption>Enjoy the outdoors</figcaption>
+                <img src="images/Rafterguide3.png" alt="Rafting guide" width="250">
+                <figcaption>Fantastic guides</figcaption>
                 </figure>
             </div>
             
@@ -54,23 +56,34 @@
                             </div>
                             <br>
                             <div class="input-group">
-                                <label for="email">Email:</label><br>
+                                <label id="email">Email:</label><br>
                                 <br>
                                 <input type="email" id="Email" placeholder="******@gmail.com">
                             </div>
                             <br>
                             <div class="input-group">
-                                <label for="mesage"></label><br>
+                                <label id="message"> Select purpose of message</label><br>
+
                                 <br>
-                                <input type="radio" placeholder="******@gmail.com">
+
+
+                                <label for="General">General inquiry</label>
+                                <input type="radio" name="title" value="General inquiry">
+
+                                <label for="Question">Reservation Question</label>
+                                <input type="radio" name="title" value="Reservation Question">
+
+                                <label for="Suggestion">Website suggestion</label>
+                                <input type="radio" name="title" value="Website suggestion">
                             </div>
+                            <br>
                             <div class="input-group">
-                                <label for="Message">Message:</label><br>
+                                <label id="Message">Message:</label><br>
                                 <textarea rows="5" placeholder="Type your Message here"></textarea>
                             </div>
                             <br>
                             <div class="input-group">
-                            <label for="checkbox">Please subscribe to our monthly Newsletter</label><br>
+                            <label id="checkbox">Please subscribe to our monthly Newsletter</label><br>
                             <input type="checkbox">
                             </div>
                             
