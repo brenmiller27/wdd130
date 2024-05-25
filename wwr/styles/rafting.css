@@ -9,11 +9,6 @@
     src: url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 }
 
-@font-face {
-    font-family: 'Ubuntu sans';
-    src: url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
-}
-
 .grid {
     display: grid;
     text-align: center;
@@ -39,14 +34,14 @@ header img  {
 
 :root {
     --primary-color: #FF9F1C ;
-    --secondary-color: #EEE5E9;
-    --accent1-color: #FFBA08;
+    --secondary-color: #080708;
+    --accent1-color: #FDCA40;
     --accent2-color: #D00000;
     --accent3-color: #000;
     --accent4-color: #000;
     --accent5-color: #6153CC;
     --accent6-color: #23CE6B ;
-    --accent7-color: #0D1F2D;
+    --accent7-color: #EDDEA4;
 
     --heading-font:'Noto san',serif ;
     --paragraph-font:'inconsolata',serif ;
@@ -106,7 +101,7 @@ h1{
 
 section p {
     color: var(--accent3-color);
-    font-family: 'ubuntu sans';
+    font-family: 'open sans';
 }
 
 .hero article img {
@@ -138,12 +133,21 @@ section h2 {
     font-weight: 600;
 }
 
+.contact-left h3 {
+    color: var(--accent4-color);
+    font-family: 'Open sans';
+}
 
 .contact-right {
      flex-basis:  40%;
     padding: 40px;
-    background-color: #333;
+    background-color:var(--accent4-color);
 
+}
+
+.contact-right h3 {
+    color: var(--accent7-color);
+    font-family: 'open sans';
 }
 
 
@@ -176,7 +180,7 @@ p {
 textarea {
     width: 100%;
     outline: none;
-    border: 1px solid #ccc;
+    border: 2px solid var(--accent4-color);
     padding: 15px;
     box-sizing: border-box;
 }
@@ -199,10 +203,10 @@ label {
 }
 
 button {
-    color: var(--nav-link-color);
+    color: var(--accent7-color);
     font-family: 'open sans';
     font-size: 1rem;
-    background-color: var(--accent5-color);
+    background-color: var(--accent4-color);
     border-radius: 30px;
     width: 200px;
     justify-content: center;
@@ -213,7 +217,7 @@ button {
     margin-left: 20px;
     margin-bottom: 20px;
     font-family: 'ubuntu sans';
-    box-shadow: 0px 5px 15px 0px rgb(28, 0, 181, 0.3);
+    box-shadow: 0px 5px 15px 0px rgba(66, 70, 70, 0.3);
 }
 
 .row{
@@ -227,7 +231,7 @@ button {
     display: table;
     margin-left: 60px;
     margin-right: 60px;
-    font-family: 'inconsolata';
+    font-family: 'open sans';
 }
 
 .column {
@@ -243,10 +247,10 @@ button {
 
 .hero article p{
     color: var(--nav-hover-background-color);
-    font-family: 'Noto san';
+    font-family: 'Open sans';
     padding: 0;
+    font-size: small;
     margin-top: 75px;
-    opacity: 100%;
     bottom: 200px;
 }
 nav{
@@ -280,10 +284,6 @@ nav a:link, nav a:visited{
     align-items: center;
 }
 
-.logo {
- text-align: center;
- justify-content: space-between;
-}
 nav a:hover{
     color: var(--accent1-color);
 }
@@ -291,6 +291,8 @@ nav a:hover{
 h2{
     text-align: center;
 }
+
+
 
 figcaption { 
     text-align: center;
@@ -302,21 +304,20 @@ figcaption {
 }
 
 footer {
-    display: grid;
     text-align: center;
-    margin: 60px;
-    margin-top: 100px;
+    padding-top: 60px;
+    margin-left: 270px;
     color: var(--accent4-color);
-    font-family: 'ubuntu sans';
+    clear: both;
+    font-family: 'open sans';
 }
 
 
 
 .sociallinks{
-    float: right;
-    position: relative;
-    padding: 0;
-    display: flex;
+    display: inline-flex;
+    margin: 0 10px;
+    margin-left: 300px;
 
 
 }
