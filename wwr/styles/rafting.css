@@ -313,11 +313,10 @@ footer {
 }
 
 .wireframe {
-    text-align: center;
-    display: contents;
     float: left;
-    margin: 0 15px;
-    margin-bottom: 100px;
+    margin: 0px;
+    display: inline-flex;
+    margin-right: 300px;
 }
 
 .sociallinks{
