@@ -313,16 +313,15 @@ footer {
 }
 
 .Wireframe {
-    float: left;
     margin: 0px;
-    display: inline-flex;
-    margin-right: 300px;
+    text-align: center;
+    margin-right: 400px;
+    margin-left: 200px;
 }
 
 .sociallinks{
     display: inline-flex;
     margin: 0 10px;
     margin-left: 200px;
-
 
 }
