@@ -240,7 +240,7 @@ button {
     display: inline-block;
     margin-top: 100px;
     margin-right: 0;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 .row-2 figcaption {
     display: table;
@@ -425,11 +425,12 @@ footer {
 }
 
 .table {
+    display: grid;
     width: 70%;
-    margin-left: 70px;
+    margin-left: 370px;
     font-weight: bold;
     justify-content: space-between;
-    width: 470px;
+    width: 500px;
 }
 
 .table img {
@@ -522,4 +523,15 @@ h3 a {
    width: 100%;
    display: flex;
    height: auto;
+}
+
+.grid-container {
+    display: grid;
+}
+
+.Photo {
+    margin-left: 700px;
+    float: right;
+    top: 200px;
+    width: 300px;
 }
