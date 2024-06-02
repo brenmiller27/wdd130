@@ -528,10 +528,3 @@ h3 a {
 .grid-container {
     display: grid;
 }
-
-.Photo {
-    margin-left: 700px;
-    float: right;
-    top: 200px;
-    width: 300px;
-}
