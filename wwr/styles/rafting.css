@@ -426,10 +426,10 @@ footer {
 
 .table {
     width: 70%;
-    margin-left: 400px;
+    margin-left: 70px;
     font-weight: bold;
     justify-content: space-between;
-    width: 450px;
+    width: 470px;
 }
 
 .hero-2 p {
@@ -464,8 +464,8 @@ tr {
 .header p{
     position:absolute;
     float: left;
-    top: 170px;
-    margin-left: 270px;
+    top: 160px;
+    margin-left: 130px;
     color: var(--nav-hover-background-color);
 }
 
@@ -494,6 +494,11 @@ h3 a {
     color: var(--nav-hover-background-color);
 }
 
+.figcaption-2 {
+    text-align: center;
+    margin-right: 150px;
+}
+
 .article-3 img {
     float: left;
     position: relative;
@@ -508,4 +513,9 @@ h3 a {
     margin-left: 700px;
     float: right;
     top: 100px;
+}
+.trips img {
+   width: 100%;
+   display: flex;
+   height: auto;
 }
