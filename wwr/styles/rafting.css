@@ -425,9 +425,10 @@ footer {
 }
 
 .table {
+    top: 100px;
     display: grid;
     width: 70%;
-    margin-left: 370px;
+    margin-left: 400px;
     font-weight: bold;
     justify-content: space-between;
     width: 500px;
@@ -437,6 +438,7 @@ footer {
     align-items: center;
     margin-left: 90px;
     width: 300px;
+
 }
 .hero-2 p {
  margin-right: 100px;
@@ -445,6 +447,9 @@ footer {
 tr {
     font-family: 'open sans';
     font-size: small;
+    margin-left: 50px;
+    width: 500px;
+    justify-content: space-between;
 }
 
 .newsletter {
@@ -527,4 +532,13 @@ h3 a {
 
 .grid-container {
     display: grid;
+
+}
+
+.container-2 {
+    display: inline-flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
 }
