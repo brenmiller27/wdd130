@@ -236,18 +236,6 @@ button {
     font-family: 'open sans';
 }
 
-.row-2{
-    display: inline-block;
-    margin-top: 100px;
-    margin-right: 0;
-    justify-content: space-evenly;
-}
-.row-2 figcaption {
-    display: table;
-    margin-left: 60px;
-    margin-right: 50px;
-    font-family: 'open sans';
-}
 
 .column {
     display: grid ;
@@ -536,9 +524,39 @@ h3 a {
 }
 
 .container-2 {
-    display: inline-flex;
-    justify-content: center;
-    margin-bottom: 20px;
-    margin-right: 50px;
-    margin-left: 50px;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 1rem;
+}
+
+.row-2{
+    height: 100%;
+ 
+ }
+ .row-2 img{
+    width: 100%;
+ }
+.card_content {
+    padding: 1rem;
+}
+
+.card_content h4{
+    margin-bottom: .05rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: center;
+
+}
+
+.card_content button {
+    padding: .5rem .1rem;
+    outline: none;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.card_content p {
+    margin-bottom: 1rem;
+    font-size: .9rem;
+    line-height: 1.5rem;
 }
