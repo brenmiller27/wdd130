@@ -208,9 +208,10 @@ label {
 button {
     color: var(--accent7-color);
     font-family: 'open sans';
-    font-size: 1rem;
     background-color: var(--accent4-color);
     border-radius: 30px;
+    font-size: 1rem;
+    font-weight: 600;
     width: 200px;
     justify-content: center;
     min-height: 2.5em;
