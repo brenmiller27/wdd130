@@ -3,12 +3,12 @@
 
 adjective = 'large'
 adjective_2= 'fast'
-animal = 'Jaguar'
-animal_2 = 'Honey badger'
-verb = 'Running'
+animal = 'Cheetah'
+animal_2 = 'Elephant'
+verb = 'skipping'
 exclamation = '"no way!"'
-verb_2= ''
-verb_3= 'growl'
+verb_2= 'sing'
+verb_3= 'jump'
 print("Please enter the following: ")
 print()
 adjective= input('Adjective: ')
@@ -28,5 +28,6 @@ print('I could think to do was to'+ ' ' + verb_2 + ' ' + 'over and over. Miracul
 print('that caused it to stop, but not before it tried to'+ ' ' + verb_3)
 print('right in front of my family.')
 print('All of a sudden, a'+ ' ' + f'{adjective_2} {animal_2}'+ ' '+ 'began to' +verb_3)
-print(f'{adjective_2} as well')
+print(' to us as well. We then saw the zoo owners come in and they saw the animals.') 
+print('They were happy to see them.')
 print()
